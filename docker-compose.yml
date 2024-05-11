@@ -1,0 +1,13 @@
+services:
+  notebook:
+    image: jupyter/base-notebook:notebook-6.3.0
+    container_name: amoosin-python
+    environment:
+      - JUPYTER_TOKEN=12345
+      - USER_ID=${USER_ID}
+    user: "${USER_ID}:100"
+    working_dir: /notebooks
+    ports:
+      - "8090:8888"
+    volumes:
+      - "./notebooks:/notebooks"

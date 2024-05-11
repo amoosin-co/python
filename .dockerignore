@@ -1,0 +1,15 @@
+.git/
+.gitignore
+.dockerignore
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+Dockerfile
+Dockerfile.*
+README.rst
+README.md
+LICENSE
+*.pyc
+__pycache__
+.env
