@@ -1,0 +1,13 @@
+{
+  "load_extensions": {
+    "highlight_selected_word/main": false,
+    "snippets/main": false,
+    "exercise/main": true,
+    "codefolding/main": true,
+    "toc2/main": true,
+    "table_beautifier/main": true,
+    "nbextensions_configurator/config_menu/main": false,
+    "highlighter/highlighter": true,
+    "freeze/main": true
+  }
+}
